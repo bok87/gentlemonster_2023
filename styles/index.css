@@ -1,0 +1,83 @@
+/* main */
+main {
+    /* display: flex; flex-flow: column nowrap;
+    align-items: center; */
+} 
+/* main - 1. visual */
+main .visual {
+    position: relative; overflow:hidden; /* 해당역역안에서만 보이라는 뜻-오버플로어히든 */
+    /* text-align: center; */
+    height: 100vh;
+}    
+main .visual .txt {
+    position: absolute;  /* 앱솔준대상은 높이 주고 너비주면 안됨 */
+    width: 100%; top:40%;
+    /* display: flex; flex-flow: column nowrap; justify-content: center;
+    align-items: center;  or text-align:center;*/
+    text-align: center;
+    z-index: 980; /* 999하면 메뉴 눌렀을때 보임 */
+    
+}
+main .visual .txt p {
+    font-size: 1.777rem; color:white;
+    letter-spacing: 0.02rem;
+}
+main .visual .txt h1 {
+    font-size: 2.369rem;
+    font-weight: 700; color:white;
+    margin: 10px 0;
+}
+main .visual .txt .link {
+    display: flex; flex-flow:row nowrap;
+    align-items: center; justify-content: center;
+}
+main .visual .txt .link a {
+    /* display: block; */
+    width: 230px; height: 40px;
+    background: rgba(255,151,92,0.40);
+    border-radius: 20px;
+    /* border:2px solid white; */
+    font-size:1.333rem; color:white;
+    padding-top: 12px;
+}
+main .visual .txt .link a:hover {
+    background: #FF975C;
+}
+main .visual .txt .link a:first-child{margin-right:10px;}
+main .visual video {
+    width: 100%;
+    /*  화면크기 조정 시 비디오 중심출 맞추기 
+        필수조건 ★ 비디오의 부모가 vh or px 높이 설정 준비! */
+    position:absolute; left: 50%;
+    transform:translateX(-50%); /* + width:1920px;의 조합으로 많이 쓴다 */
+    /* width:150%; 방법2 */
+    /* width:1920px; 방법3 절대크기값*/
+    /* height: 100%; */
+}
+/* 와이드 비율의 video 화면 전체 배치 시 여백해결법 */
+/*  1. 반응형웹 @media 특정해상도마다 비디오의 크기 설정값 변경 (보통 이걸 많이씀) 
+    2. 가장 큰 데스크탑 기준으로 너비를 100% 보다 크게 설정하고 넘치게 하는 방법 
+    3. 상대크기가 아닌 절대크기값(px) 크기를 설정해서 화면 해상도에 영향을 받지 않는 방법 (가장쉬움)*/
+main .adver_bnr {
+    background: url(/images/bnr_1.jpg) no-repeat;
+    height: 300px;
+}
+main .adver_bnr img {width: 100%;}
+main .adver_bnr .txt {}
+main .adver_bnr p {}
+main .adver_bnr h1 {}
+main .adver_bnr .link {
+    display: flex; flex-flow:row nowrap;
+    align-items: center; justify-content: center;
+    text-align: center;
+
+}
+main .adver_bnr .link a {
+    width: 230px; height: 40px;
+    background: rgba(255,151,92,0.40);
+    border-radius: 20px;
+    padding: 10px;
+}
+main .adver_bnr .link a:hover {
+    background: #FF975C;
+}

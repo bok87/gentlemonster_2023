@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
 </head>
 <body>
     <header>
@@ -37,7 +38,7 @@
             <!-- 닫기버튼 -->
             <button id="nav_close" type="button"><img src="/images/nav_close.png" alt="닫기"></button>
             <!-- 광고 슬라이드 -->
-            <div clsaa="swiper" id="nav_adver">
+            <div class="swiper" id="nav_adver">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a href="#">나에게 어울리는 제품을 찾으세요? 실시간 라이브 채팅으로 제품 추천을 받아보세요.</a>
@@ -64,7 +65,31 @@
             </nav>
         </div>
     </header>
+    <main>
+        <div class="visual">
+            <div class="txt">
+                <p>데이제르와 함께한 협업 컬렉션을 만나보세요</p>
+                <h1>GENTLE MONSTER D`HEYGERE</h1>
+                <div class="link">
+                    <a href="#">컬렉션 보러가기</a>
+                    <a href="#">자세히 보기</a>
+                </div>
+            </div>
+                <video src="./video/visual.mp4" autoplay loop muted></video>            
+        </div>
+        <!-- main 2. bnr -->
+        <div class="adver_bnr"><!-- background image -->
+            <div class="txt">
+                <p>볼드 컬렉션 2차 드롭을 만나보세요</p>
+                <h1>BOLD COLLECTION</h1>
+                <div class="link">
+                    <a href="#">구매하기</a>
+                    <a href="#">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- header, footer 웹페이지 공통영역 적용 JS -->
-    <script src="./script/common.js"></script>
+    <script src="/script/common.js"></script>
 </body>
 </html>
