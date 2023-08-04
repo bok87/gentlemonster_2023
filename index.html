@@ -18,20 +18,14 @@
 </head>
 <body>
     <header>
-        <h1>
-            <a href="#">
-                <img src="./images/logo.png" alt="">
-            </a>
-        </h1>
+        <h1><a href="#"><img src="./images/logo.png" alt="GENTLEMONSTER"></a></h1>
         <div class="right">
             <a href="#" class="lang">Shop in KR</a>
             <form action="#" method="get" id="searchFrm">
                 <fieldset>
                     <legend class="skip">검색양식</legend>
-                        <input type="text" id="searchTxt" placeholder="상품명을 입력해주세요">
-                    <button id="searchBtn" type="submit">
-                        <img src="/images/icon_search.png" alt=""></a>
-                    </button>                
+                        <input type="text" id="searchTxt" placeholder="상품명을 입력해주세요" id="searchTxt">
+                    <button id="searchBtn" type="submit"><img src="/images/icon_search.png" alt="검색"></a></button>                
                 </fieldset>
             </form>
             <a href="#" id="login"><img src="/images/icon_login.png" alt="로그인"></a>
@@ -41,9 +35,7 @@
         <!-- nav 클릭시 open nav -->
         <div id="open_nav">
             <!-- 닫기버튼 -->
-            <button id="nav_close" type="button">
-                <img src="/images/nav_close.png" alt="닫기">
-            </button>
+            <button id="nav_close" type="button"><img src="/images/nav_close.png" alt="닫기"></button>
             <!-- 광고 슬라이드 -->
             <div clsaa="swiper" id="nav_adver">
                 <div class="swiper-wrapper">
@@ -72,6 +64,7 @@
             </nav>
         </div>
     </header>
-    <script src="./script/gentle.js"></script>
+    <!-- header, footer 웹페이지 공통영역 적용 JS -->
+    <script src="./script/common.js"></script>
 </body>
 </html>
