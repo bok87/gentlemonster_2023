@@ -63,21 +63,87 @@ main .adver_bnr {
     height: 300px;
 }
 main .adver_bnr img {width: 100%;}
-main .adver_bnr .txt {}
-main .adver_bnr p {}
-main .adver_bnr h1 {}
+main .adver_bnr .txt {
+    /* contents width px */
+    max-width: 1200px; margin:0 auto;
+    text-align: right;
+    /* display: flex; flex-flow: column nowrap;
+    align-items: center; justify-content: right; */ /* 이거쓰면 안됨 */
+    padding-top: 77.5px;
+}
+main .adver_bnr p {
+    font-size: 1.777rem; color:white;
+    letter-spacing: 0.02rem;
+}
+main .adver_bnr h1 {
+    font-size: 2.369rem;
+    font-weight: 700; color:white;
+    margin: 10px 0;
+}
 main .adver_bnr .link {
     display: flex; flex-flow:row nowrap;
-    align-items: center; justify-content: center;
+    align-items: center; justify-content: right;
     text-align: center;
 
-}
+} 
 main .adver_bnr .link a {
-    width: 230px; height: 40px;
+    width: 230px; height: 20px;
     background: rgba(255,151,92,0.40);
     border-radius: 20px;
     padding: 10px;
+    font-size:1.333rem; color:white;
+    padding-top: 12px;
 }
 main .adver_bnr .link a:hover {
     background: #FF975C;
+}
+/* main 3. service */
+main #shop_service { /* 너비100% */
+    background: url(/images/service_bg1.jpg) no-repeat;
+    background-position: right bottom;
+    background-size: 70%;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+main #shop_service .txt:nth-child(1) { /* 너비 px주기 */
+    background: white;
+    width: 827px;
+    text-align: center;
+}
+main #shop_service .txt h1 {
+    font-size:2.369rem;
+    font-weight:700;
+    line-height: 50px;
+}
+main #shop_service .txt p {
+    font-size:1.777rem;
+    padding: 53px;
+}
+main #shop_service .txt .service_link {
+    width: 230px; 
+    background: rgba(255,151,92,0.40);
+    border-radius: 20px;
+    padding: 10px;
+    font-size:1.333rem; color:white;
+    padding-top: 12px;
+    display: inline-block;
+    text-align: center;
+
+}
+main #shop_service .txt .service_link:hover {
+    background: #FF975C;
+}
+
+main #shop_service:last-child { /* 너비100% */
+    background: url(/images/service_bg2.jpg) no-repeat;
+    background-position: left center;
+    background-size: 70%;
+    padding-top: 50px;
+    margin-top: 100px;
+    display: flex; flex-flow:row-reverse;
+}
+main #shop_service .txt:nth-child(2) {
+    background: white;
+    width: 827px;
+    text-align: right;
 }
