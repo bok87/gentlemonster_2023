@@ -96,3 +96,41 @@ header #open_nav nav a:hover {
     font-weight: 700;
     color:#FF975C;
 }
+/* footer */
+footer {
+    width: calc(100% - 60px); margin: 0 auto; /* calc 띄어쓰기 꼭해야함!!!!! */
+}
+footer .f_menu {
+    display: flex;
+    padding: 100px 0 40px;
+}
+footer .f_menu dl {
+    margin-right: 50px;
+}
+footer .f_menu dl dt {
+    font-weight:700;
+    margin-bottom: 20px;
+}
+footer .f_menu dl dd {}
+footer .f_menu dl dd a {
+    color:#888;
+    line-height: 30px;
+}
+footer .f_copy {
+    display: flex; /* flex-flow:row nowrap;
+    justify-content: space-between;  */
+}
+footer .f_copy .logo {
+    width: 213px; /* height: 100;
+    margin-right: 100px; */
+}
+footer .f_copy .logo img {width: 100%;}
+footer .f_copy address {
+    font-size: 0.75rem;
+    line-height: 15px;
+    margin: -10px 0 0 30px;
+}
+footer .f_copy address a {
+    font-size: 0.75rem;
+    text-decoration: underline; /* 링크에 밑줄 */
+}
