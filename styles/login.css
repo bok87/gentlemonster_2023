@@ -1,0 +1,89 @@
+*{font-family:'Noto Sans KR', sans-serif;}
+main {
+    width: 1100px; margin:0 auto;
+    /* font-family: Noto Sans KR; */
+}
+main h1 {
+    text-align: center;
+    margin-bottom: 143px;
+}
+main h1 a {
+    font-size: 3.157rem;
+    font-weight: 700;
+}
+main .login {
+    
+}
+main .login h2 {font-size: 3.157rem;}
+main .login p {
+    padding: 50px 0;
+    font-size: 2.369rem;
+}
+main .login .login_cacao {}
+main .login .login_cacao .login_btn {
+    background: #FEE500;
+    font-weight: 700;
+    font-size: 3.157rem;
+    padding: 35px 170px 35px 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+main .login .login_cacao .login_btn img {
+    margin-right: 150px;
+}
+main .login .service {
+    margin:193px 0;
+}
+main .login .service img {}
+main .login .login_or {
+    width: 1000px; height: 1px;
+    background: rgba(0, 0, 0, 0.226);
+    position: relative;
+    margin-bottom: 100px;
+}
+main .login .login_or span {
+    font-size: 2.369rem;
+    position: absolute; top:-25px; right: 45%;
+    color: rgba(0, 0, 0, 0.226);
+    padding: 10px 30px;
+    background: #fff;
+}
+main .login .login_tab {
+    display: flex; justify-content: center;
+    align-items: center;
+}
+main .login .login_tab li a {
+    padding: 40px 120px;
+    background: #F5F5F5;
+    border-radius: 70px;
+    color: rgba(0, 0, 0, 0.507);
+    display: inline-block;
+    font-size: 3.157rem;    
+}
+main .login .login_tab .active {}
+main .login .login_tab .active a {
+    background: black;
+    color: #fff;
+    
+}
+main .login .login_form {}
+main .login .login_form form {}
+main .login .login_form form fieldset {}
+main .login .login_form form fieldset legend {}
+main .login .login_form form fieldset input {
+    border-bottom: 1px solid #000;
+}
+main .login .login_form form label {}
+main .login .login_form form #save_id {}
+main .login .login_form form .login_btm {}
+main .login .login_form form .login_btm a {}
+main .login .login_form form .login_btm a img {}
+main .login .login_sns {
+    display: flex; justify-content: space-between;
+    width: 600px; margin:0 auto;
+}
+main .login .login_sns a {
+    width: 150px;
+}
+main .login .login_sns a img {width: 100%;}
