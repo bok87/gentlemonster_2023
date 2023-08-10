@@ -1,0 +1,86 @@
+main {}
+main #category {
+    width: 1350px; margin:50px auto; background: aqua;
+    display: flex; justify-content: space-between;
+}
+main #category a {
+    width: 170px; height: 170px; border-radius: 50%;
+    display: flex; flex-flow:column nowrap;
+}
+main #category a img {width: 100%;}
+main #category a span {
+    text-align: center;
+    padding: 20px; font-size: 1.333rem;
+}
+/* 3. product_list  */
+main #prduct_list {
+    width: 1350px; margin: 0 auto;
+    
+}
+main #prduct_list .title {}
+main #prduct_list .title .top {
+    display:flex; justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+    padding: 30px 0;
+}
+main #prduct_list .title .top h1 {
+    font-size: 2.369rem; font-weight: 700;
+}
+main #prduct_list .title .top .filter {
+    
+}
+main #prduct_list .title .top .filter a {
+    font-size: 1.333rem;
+    margin-right: 25px;
+}
+main #prduct_list .title .top .filter a:last-child {margin-right: 0;}
+main #prduct_list .title .btm {
+    display:flex; justify-content: space-between;
+    padding: 30px 0;
+
+}
+main #prduct_list .title .btm p {}
+main #prduct_list .title .btm p em {
+    font-weight: 700;
+}
+main #prduct_list .title .btm #prduct_align {
+    margin-right: 0;
+}
+main #prduct_list .title .btm #prduct_align option {}
+main #prduct_list .container {
+    display: flex; justify-content: space-between;
+}
+main #prduct_list .container .item {
+    width: 260px;
+    position: relative;
+}
+main #prduct_list .container .item .box {
+    
+}
+main #prduct_list .container .item .box .item_img {
+}
+main #prduct_list .container .item .box .item_img img {width: 100%}
+main #prduct_list .container .item .box .like_img {
+    width: 100%;
+    position: absolute; top:10px; left: 220px;
+}
+main #prduct_list .container .item .txt {
+}
+main #prduct_list .container .item .txt h2 {
+    
+}
+main #prduct_list .container .item .txt .name {
+    margin: 28px 0;
+
+}
+main #prduct_list .container .item .txt .price {}
+main #prduct_list .container .item .txt .color {}
+main #prduct_list .container .item .txt .color .black {}
+main #prduct_list .container .item .txt .color .gray {}
+main #prduct_list .container .item .txt .color .white {}
+main #prduct_list .container .item .txt .color .yellow {}
+main #prduct_list .container .item .txt .color .red {}
+main #prduct_list .container .item .txt .color .pink {}
+main #prduct_list .container .item .txt .color .silver {}
+main #prduct_list .container .item .txt .color .gold {}
